@@ -17,7 +17,7 @@ namespace AptechCompany.Models
                 
                 if (context.Employee.Any())
                 {
-                    /*return; */  // DB has been seeded
+                    return;   // DB has been seeded
                 }
                 var Employees = new Employee[]
                 {
