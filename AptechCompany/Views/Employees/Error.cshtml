@@ -1,0 +1,13 @@
+﻿@model AptechCompany.Models.Employee
+
+@{
+    ViewData["Title"] = "Error";
+}
+    <div class="ErrorBox" style="margin:0 auto;">
+        <div>
+            <h3>EmployeeId field already exists this value, please enter another value!</h3>
+            <div>
+                <a asp-action="Create">Create Again</a>
+            </div>
+        </div>
+    </div>
