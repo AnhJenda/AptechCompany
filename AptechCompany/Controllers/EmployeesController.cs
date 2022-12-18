@@ -66,6 +66,7 @@ namespace AptechCompany.Controllers
             {
                 _context.Add(employee);
                 await _context.SaveChangesAsync();
+
                 return RedirectToAction("Details", new {id = employee.Id});
             }
             return View(employee);
